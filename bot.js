@@ -54,6 +54,8 @@ bot.on("message", (message) => {
                 parse_mode: "HTML"
             })
 
+            bot.sendMessage(message.chat.id, "Siz bilan tez orada bo'g'lanamiz !")
+
         }
     }
 })
